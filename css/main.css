@@ -1,0 +1,750 @@
+* {
+  box-sizing: border-box; 
+}
+ 
+body {
+  font-family: Arial;
+  margin-left: 10%;
+  margin-right: 10%;
+ /* background-image: url(../image/beijing.jpg); */ 
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+
+
+#menu{width: 88px;height: auto; position: fixed;top: 50%;right: 80px;margin-top: -135px;}
+#menu ul{display: block;list-style: none}
+#menu ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: crimson;color: white;display: block}
+#menu ul li a:hover,#menu ul li a.cur{background-color: red;color: white;}
+
+#menu-jingji{width: 88px;height: auto; position: fixed;top: 30%;right: 70px;margin-top: -135px;}
+#menu-jingji ul{display: block;list-style: none}
+#menu-jingji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: gold;color:white;display: block}
+#menu-jingji ul li a:hover,#menu-jingji ul li a.cur{background-color: red;color: white;}
+
+#menu-guoji{width: 88px;height: auto; position: fixed;top: 30%;right: 70px;margin-top: -135px;}
+#menu-guoji ul{display: block;list-style: none}
+#menu-guoji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: blue;color: white;display: block}
+#menu-guoji ul li a:hover,#menu-guoji ul li a.cur{background-color: red;color: white;}
+
+#menu-keji{width: 88px;height: auto; position: fixed;top: 30%;right: 70px;margin-top: -135px;}
+#menu-keji ul{display: block;list-style: none}
+#menu-keji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: skyblue;color: white;display: block}
+#menu-keji ul li a:hover,#menu-keji ul li a.cur{background-color: red;color: white;}
+
+#menu-junshi{width: 88px;height: auto; position: fixed;top: 30%;right: 70px;margin-top: -135px;}
+#menu-junshi ul{display: block;list-style: none}
+#menu-junshi ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: green;color: white;display: block}
+#menu-junshi ul li a:hover,#menu-junshi ul li a.cur{background-color: red;color: white;}
+
+#menu-tiyu{width: 88px;height: auto; position: fixed;top: 30%;right: 70px;margin-top: -135px;}
+#menu-tiyu ul{display: block;list-style: none}
+#menu-tiyu ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: deepskyblue;color: white;display: block}
+#menu-tiyu ul li a:hover,#menu-tiyu ul li a.cur{background-color: red;color: white;}
+
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 23.5px;
+}
+
+h2{
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+
+h3{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: red
+}
+
+h4{
+	font-family: "微软雅黑";
+		font-size: 18px;
+}
+
+h5{
+	font-family: "宋体";
+	font-size: 15px;
+	color: wheat;
+}
+
+a{
+	text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+
+
+/* header */
+
+
+
+
+.header {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-beijing3.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+   animation:myfirst 8s;
+}
+
+@keyframes myfirst
+{
+from {background:url(../image/beijing.jpg);}
+to {background:url(../image/header-beijing3.jpg);}
+}
+ 
+.header h1 {
+  font-size: 50px;
+  color: crimson;
+}
+
+.header h1:hover{
+	 color: white;
+}
+
+.header-guoji {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-guoji1.jpg) ; 
+  background-color: white;
+  background-size: cover;
+}
+
+.header-guoji h1 {
+  font-size: 60px;
+  color: white;
+}
+
+
+.header-jingji {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-jingji1.jpg) ;
+  background-size: cover;
+}
+
+.header-jingji h1 {
+  font-size: 60px;
+  color: white;
+}
+
+
+.header-keji {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-keji.jpg);
+  background-size: cover;
+  
+}
+
+.header-keji h1 {
+  font-size: 60px;
+  color: white;
+}
+
+
+.header-junshi {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-junshi2.jpg) ;
+  background-size: cover;
+}
+
+.header-junshi h1 {
+  font-size: 60px;
+  color: white;
+}
+
+
+.header-tiyu {
+  width: 100%;
+  padding: 60px;
+  text-align: center;
+  background-image: url(../image/header-tiyu.jpg) ;
+  background-size: cover;
+}
+
+.header-tiyu h1 {
+  font-size: 60px;
+  color: white;
+}
+
+
+/* daohanglang */
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #560903;
+	/* position: fixed; */
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 40px;
+  text-decoration: none;
+}
+ 
+
+.topnav a:hover {
+  background-color: red;
+  color: white;
+}
+
+
+/* shouye */
+
+
+/* Left*/
+.leftcolumn {   
+  float: left;
+  width: 67.5%;
+}
+ 
+/* right */
+.rightcolumn {
+  float: left;
+  width: 32.5%;
+  padding-left: 10px;
+}
+
+/* chengjiuyemian */
+
+/* Left*/
+.leftcolumn-chengjiu {   
+  float: left;
+  width: 67.5%;
+	text-align: center;
+}
+
+.leftcolumn-chengjiu p{
+	text-align: left;
+	font: "microsoft yahei";
+	font-size: 18px;
+	color: #222;	
+}
+
+.leftcolumn-chengjiu h2{
+	font-size: 45px;
+}
+
+
+/* right */
+.rightcolumn-chengjiu {
+  float: left;
+  width: 32.5%;
+  padding-left: 10px;
+}
+
+/* chengjiuxiangqingyemian */
+
+.chengjiu-xiangqing {
+	width: 100%;
+	text-align: left;
+}
+
+.chengjiu-xiangqing h2{
+	font-size: 50px;
+	text-align: center;
+}
+
+.chengjiu-xiangqing p{
+	font-size: 18px;
+}
+
+
+.chengjiu-qita {
+  width: 100%;
+	text-align: center;
+}
+
+.chengjiu-qita-feng {
+  width: 33%;
+	text-align: center;
+	float: left;
+}
+
+
+/* card */
+
+
+.card {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 3px ;
+  padding-bottom: 3px;
+  margin-top: 1px;
+  border-bottom: 1px solid red;
+}
+
+.card .pinlunkuang{
+	width: 95%;
+	height: 276px;
+	background: red;
+	text-align: center;
+	
+	-webkit-box-shadow: red 0px 0px 10px;
+   -moz-box-shadow: red 0px 0px 10px;
+   box-shadow: red 0px 0px 10px;
+   
+   background: red;
+
+	
+}
+
+.card .pinlunkuang .biaoti {
+	height: 30px;
+	
+}
+
+.card .pinlunkuang .biaoti h2{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: yellow;
+	text-align: left;
+}
+
+.card .pinlunkuang .show{
+	width: 100%;
+	height: 80%;
+	padding: 2px;
+	background: white ;
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	text-align: center;
+	overflow-y:auto;
+	
+	
+}
+
+
+
+.card .pinlunkuang .wenzi{
+	width: 90%;
+	height: 20px;
+	overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ color: black;
+ font-weight: 700;
+	
+	animation: myMove 10s linear infinite;
+	animation-fill-mode: forwards;
+}
+
+/*文字无缝滚动*/
+@keyframes myMove {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+
+
+.card-img {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 3px ;
+  padding-bottom: 3px;
+  margin-top: 1px;
+  border-bottom: 1px solid red;
+}
+
+.card-img img{
+	width: 28%;
+	float: right;
+	margin-right: 10px;
+}
+
+
+.card-chengjiu {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px ;
+  padding-bottom: 3px;
+  margin-top: 1px;
+ 
+}
+
+.card-chengjiu h2{
+	 text-align: center;
+}
+
+.card-chengjiu img{
+	text-align: center;
+}
+
+.card-chengjiu-right {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 3px ;
+  padding-bottom: 3px;
+  margin-top: 1px;
+	border-bottom: 1px solid wheat;
+}
+
+.card-chengjiu-right h1{
+	font-size: 20px;
+}
+
+
+
+/* image */
+
+
+.fakeimg {
+  width: 100%;
+  height: 180px;
+	text-align: left;
+}
+
+.chengjiu-xiangqing-img {
+  width: 100%;
+	text-align: center;
+}
+ 
+.shipin {
+  margin-top: 0px;
+  height: 544px;
+  background-color: white; 
+  /* background-image: url(../image/beijing.jpg); */
+  text-align: center;
+  padding-left: 1px;
+}
+
+
+
+
+
+
+/* lunbotu */
+
+
+.lunbotu {
+  margin-top: 0px;
+  height: 510px;
+  background-color: white; 
+ 
+}
+ 
+ a{
+            text-decoration: none;
+        }
+		
+        .container {
+            position: relative;
+            width: 600px;
+            height: 500px;
+						left: 50%;
+						margin-left: -300px;
+           text-align: center;
+            box-shadow: 0 0 5px green;
+            overflow: hidden;
+        }
+		
+        .container .wrap {
+            position: absolute;
+            width: 4200px;
+            height: 300px;
+            z-index: 1;
+        }
+		
+        .container .wrap img {
+            float: left;
+            width: 600px;
+            height: 500px;
+        }
+		
+        .container .buttons {
+            position: absolute;
+            right: 5px;
+            bottom:20px;
+            width: 150px;
+            height: 10px;
+            z-index: 2;
+        }
+		
+        .container .buttons span {
+            margin-left: 5px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #560903;
+            text-align: center;
+            color:white;
+            cursor: pointer;
+						pointer-events: none;
+        }
+		
+        .container .buttons span.on{
+            background-color: red;
+        }
+		
+        .container .arrow {
+            position: absolute;
+            top: 45%;
+            color: red;
+            padding:0px 14px;
+            border-radius: 50%;
+            font-size: 50px;
+            z-index: 2;
+            display: none;
+        }
+        .container .arrow_left {
+            left: 10px;
+        }
+        .container .arrow_right {
+            right: 10px;
+        }
+        .container:hover .arrow {
+            display: block;
+        }
+        .container .arrow:hover {
+            background-color: rgba(0,0,0,0.2);
+        }
+
+/* chengjiu */
+
+
+.fenge {
+  margin-top: 1px;
+  overflow: hidden;
+  background-color: white; 
+  /* background-image: url(../image/beijing.jpg); */
+  text-align: left;
+  padding-left: 20px;
+	border-bottom: 5px solid red;
+	
+}
+
+
+ 
+.fenge img{
+	cursor: pointer;
+    transition: all 0.6s;
+    -ms-transition: all 0.8s;
+	
+}
+
+.fenge img:hover{
+	transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.fenge h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+.fenge-lunbo {
+  margin-top: 1px;
+  overflow: hidden;
+  background-color: white; 
+  /* background-image: url(../image/beijing.jpg); */
+  text-align: left;
+  padding-left: 20px;
+	border-bottom: 1px solid red;
+	
+}
+
+.chengjiu{
+	float: left;
+	width: 30%;
+	height: 350px;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 22px;
+	text-align: center;
+
+}
+
+.wenzi{
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+ 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ 
+ 
+/* footer */
+.footer {
+  padding: 1px;
+  text-align: -webkit-center;
+  background: white;
+  margin-top: 0px;
+  border-top: 1px solid wheat ;
+}
+
+.footer a{
+	color: black;
+}
+
+.footer a:hover{
+	color: red;
+}
+		 
+		 
+/* 响应式布局 - 屏幕尺寸大于 1400px 时 */
+@media screen and (min-width: 1400px) {
+	body{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+  .leftcolumn{   
+    width: 72%;
+    padding: 0;
+  }
+  
+  
+  .card .pinlunkuang{
+  	width: 95%;
+  	height: 296px;
+  	background: red;
+  	text-align: center;
+  	
+  	-webkit-box-shadow: red 0px 0px 10px;
+     -moz-box-shadow: red 0px 0px 10px;
+     box-shadow: red 0px 0px 10px;
+     
+     background: red;
+  
+  	
+  }
+
+
+	.rightcolumn{
+		width: 28%;
+		padding: 0;;
+	}
+	
+	
+	
+	.chengjiu{
+		float: left;
+		width: 30%;
+		height: 350px;
+		background-color: white;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 22px;
+		text-align: center;
+	
+	}
+	
+	.wenzi{
+		margin-top: 10px;
+		margin-left: 15px;
+		text-align: left;
+	}
+	
+	
+	.fenge-lunbo {
+	  margin-top: 21px;
+	  overflow: hidden;
+	  background-color: white; 
+	  /* background-image: url(../image/beijing.jpg); */
+	  text-align: left;
+	  padding-left: 20px;
+		border-bottom: 1px solid red;
+		
+	}
+	
+	
+	.card-img img{
+		width: 26%;
+		float: right;
+		margin-right: 10px;
+	}
+	
+	
+	#menu{width: 88px;height: auto; position: fixed;top: 50%;right: 300px;margin-top: -135px;}
+	#menu ul{display: block;list-style: none}
+	#menu ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: crimson;color: white;display: block}
+	#menu ul li a:hover,#menu ul li a.cur{background-color: red;color: white;}
+	
+	#menu-jingji{width: 88px;height: auto; position: fixed;top: 40%;right: 300px;margin-top: -135px;}
+	#menu-jingji ul{display: block;list-style: none}
+	#menu-jingji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: gold;color:white;display: block}
+	#menu-jingji ul li a:hover,#menu-jingji ul li a.cur{background-color: red;color: white;}
+	
+	#menu-guoji{width: 88px;height: auto; position: fixed;top: 40%;right: 300px;margin-top: -135px;}
+	#menu-guoji ul{display: block;list-style: none}
+	#menu-guoji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: blue;color: white;display: block}
+	#menu-guoji ul li a:hover,#menu-guoji ul li a.cur{background-color: red;color: white;}
+	
+	#menu-keji{width: 88px;height: auto; position: fixed;top: 40%;right: 300px;margin-top: -135px;}
+	#menu-keji ul{display: block;list-style: none}
+	#menu-keji ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: skyblue;color: white;display: block}
+	#menu-keji ul li a:hover,#menu-keji ul li a.cur{background-color: red;color: white;}
+	
+	#menu-junshi{width: 88px;height: auto; position: fixed;top: 40%;right: 300px;margin-top: -135px;}
+	#menu-junshi ul{display: block;list-style: none}
+	#menu-junshi ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: green;color: white;display: block}
+	#menu-junshi ul li a:hover,#menu-junshi ul li a.cur{background-color: red;color: white;}
+	
+	#menu-tiyu{width: 88px;height: auto; position: fixed;top: 40%;right: 300px;margin-top: -135px;}
+	#menu-tiyu ul{display: block;list-style: none}
+	#menu-tiyu ul li a{width: 88px; height: 54px; line-height: 54px; text-align: center;background-color: deepskyblue;color: white;display: block}
+	#menu-tiyu ul li a:hover,#menu-tiyu ul li a.cur{background-color: red;color: white;}
+	
+	
+	
+	
+	
+	
+}		 
+
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
